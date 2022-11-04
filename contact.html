@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=, initial-scale=1.0" />
+    <link rel="stylesheet" href="try.css">
+    <title>CONTACT FORM</title>
+    <script src="script.js" type="text/javascript"></script>
+    <script type="text/javascript"
+        src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js">
+</script>
+<script type="text/javascript">
+   (function(){
+      emailjs.init("WGgqKUcPeXKTXb4EX");
+   })();
+</script>
+</head>
+<body>
+        <nav>
+           <h1 class="logo">Papis<span>Vape</span></h1>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="products.html">Products</a></li>
+            </ul>
+        </nav>
+            <div class="title">
+            <h2>CONTACT US</h2>
+            <h3>WE WANT TO HEAR FROM YOU</h3>
+        </div>
+        <div class="box">
+            <form>
+                <input type="text" id="name" class="form-control" placeholder="Enter Your Name" required><br>
+                <input type="email" id="email" class="form-control" placeholder="Enter Your Email" required><br>
+                <textarea id="message" class="form-control" placeholder="Message" rows="4" required></textarea><br>
+                <button onclick="SendEmail()">SendEmail</button>
+            </form>
+        </div>
+</body>
+</html>
+</body>
+</html>
